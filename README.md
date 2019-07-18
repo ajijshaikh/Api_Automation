@@ -91,7 +91,7 @@ src/test/java
 ## Usage example
 
 1. *.feature - All feature files under feature folder contain the different scenarios which we can perform for the perticular request. As an Example consider the CreateEmployeeRecord.feature which contains the different scenarios by which we can test the api and all these scenarios can run automatically depending on the call given to them.
-2. *.java - All java files under runner folder contain the individual caller for respective feature file
+2. *.java - All java files under runner folder contain the individual caller for respective feature file. You can call respective feature file by calling it's caller.
 3. *.txt & *.json - All *.txt & *.json files contain the data of request or response of the API to manipulate the runtime behavior of the API by comparing it with the exact response which we get from the API after calling it.
 4. AllFeatureFileRunner. java - Used to run all the feature files at once
 
